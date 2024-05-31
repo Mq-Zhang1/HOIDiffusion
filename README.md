@@ -9,13 +9,13 @@ Official implementation of HOIDiffusion: Generating Realistic 3D Hand-Object Int
 
 # 🔧 Dependencies and Installation
 
-1️. For main model (stable diffusion+condition model) training and testing.
+1. For main model (stable diffusion+condition model) training and testing.
 - Python >= 3.8
   ```bash
   conda create --name <env_name> python==3.8
   pip install -r requirements.txt
   ```
-2️. Normal map is estimated from midas depth model and specified threshold. Please create a new folder named `midas_models`  and download the checkpoint inside.
+2. Normal map is estimated from midas depth model and specified threshold. Please create a new folder named `midas_models`  and download the checkpoint inside.
 - `dpt_hybrid-midas-501f0c75.pt`: download it from this [link](https://huggingface.co/lllyasviel/ControlNet/blob/main/annotator/ckpts/dpt_hybrid-midas-501f0c75.pt). 
 - The directory should look like this:
   ```bash
@@ -24,9 +24,9 @@ Official implementation of HOIDiffusion: Generating Realistic 3D Hand-Object Int
   midas_models/
     dpt_hybrid-midas-501f0c75.pt
   ```
-3️. To establish the environment for hand-object synthetic image generation and rendering, please follow this repo: [GrabNet](https://github.com/otaheri/GrabNet)
+3. To establish the environment for hand-object synthetic image generation and rendering, please follow this repo: [GrabNet](https://github.com/otaheri/GrabNet)
 
-4️. The pipeline leverages Llava to generate detailed prompts for training images. Please follow this repo to setup if this also works for you: [LLaVA](https://github.com/haotian-liu/LLaVA)
+4. The pipeline leverages Llava to generate detailed prompts for training images. Please follow this repo to setup if this also works for you: [LLaVA](https://github.com/haotian-liu/LLaVA)
 
 # ⏬ Data Preparation
 
@@ -57,7 +57,9 @@ image,sentence
 <Reg_path>/0002.jpg,"A dramatic, fiery lava flow in a volcano."
 ```
 Here are some image examples:
-<img src="static/reg/1.jpg" height=256> <img src="static/reg/2.jpg" height=256> <img src="static/reg/3.jpg" height=256> <img src="static/reg/4.jpg" height=256>
+
+<img src="static/reg/1.jpg" height=196> <img src="static/reg/2.jpg" height=196> <img src="static/reg/3.jpg" height=196> <img src="static/reg/4.jpg" height=196>
+
 Similar method could be used to construct your regularization data.
 
 ### Testing Data Generation
