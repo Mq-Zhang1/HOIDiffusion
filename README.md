@@ -2,7 +2,7 @@
 
 Official implementation of HOIDiffusion: Generating Realistic 3D Hand-Object Interaction Data. 
 
-[CVPR'24] | 📝 <a href="https://arxiv.org/abs/2403.12011">Arxiv</a> | 🗒️ <a href="https://mq-zhang1.github.io/HOIDiffusion/">Project Page</a> | 📽️ <a href="https://www.youtube.com/watch?v=YD_buFwMX44">Video</a>
+[CVPR'24] | 📝 <a href="https://arxiv.org/abs/2403.12011">Arxiv</a> | 🗒️ <a href="https://mq-zhang1.github.io/HOIDiffusion/">Project Page</a> | 📽️ <a href="https://www.youtube.com/watch?v=YD_buFwMX44">Video</a> |✨ <a href="https://drive.google.com/drive/folders/1uAerYKpe3kVe1ypr3hTLwvjeBCbX1RqN?usp=sharing">Models</a>
 
 <!-- <div align="center"> -->
 ![teaser](static/teaser.png)
